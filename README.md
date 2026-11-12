@@ -7,11 +7,14 @@ Cueless is not made by, affiliated with, or endorsed by Corsair. Corsair, iCUE a
 ## Download
 
 1. Go to the **Releases** page of this repository and open the newest release.
-2. Download **Cueless.zip**.
-3. Unzip it to any folder you like, for example your Documents folder. There's no installer.
-4. Open the folder and run **Cueless.exe**. Windows SmartScreen may warn about a new app. If it does, choose **More info**, then **Run anyway**.
+2. Download **Cueless-Setup** (the .exe file).
+3. Run it. Windows SmartScreen may warn about a new app. If it does, choose **More info**, then **Run anyway**.
+4. Setup shows one window. Choose the install folder and options, then press **Install**. Nothing is installed before that, and no administrator rights are needed.
+5. To open Cueless later, press the Windows key and type **Cueless**.
 
-Cueless keeps its settings and log in the same folder as Cueless.exe.
+To update, use **Check for updates** on Cueless's General tab. It downloads the new setup, installs it over your copy and keeps your settings.
+
+To remove Cueless, open Windows Settings, then Apps, then Installed apps, and uninstall it from there.
 
 ## What it does
 
@@ -36,9 +39,10 @@ Cueless keeps its settings and log in the same folder as Cueless.exe.
   - the mic light can show mute status
 - **Works over the receiver or the USB cable.**
 - **Notification area icon** with the battery level and mic state, and an option to start with Windows.
+- **Updates itself** from this page when you ask it to.
 - **Dark, light, or Windows colors, and text from 100 to 200 percent.**
 
-The full guide is **Cueless help.txt**, which comes in the download.
+The full guide is **Cueless help.txt**, installed with Cueless and opened from the Help button.
 
 ## Requirements
 
