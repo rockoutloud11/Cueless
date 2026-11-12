@@ -9,8 +9,9 @@ Cueless is not made by, affiliated with, or endorsed by Corsair. Corsair, iCUE a
 1. Go to the **Releases** page of this repository and open the newest release.
 2. Download **Cueless-Setup** (the .exe file).
 3. Run it. Windows SmartScreen may warn about a new app. If it does, choose **More info**, then **Run anyway**.
-4. Setup shows one window. Choose the install folder and options, then press **Install**. Nothing is installed before that, and no administrator rights are needed.
-5. To open Cueless later, press the Windows key and type **Cueless**.
+4. Make sure iCUE isn't running (see Requirements below).
+5. Setup shows one window. Choose the install folder and options, then press **Install**. Nothing is installed before that, and no administrator rights are needed.
+6. To open Cueless later, press the Windows key and type **Cueless**.
 
 To update, use **Check for updates** on Cueless's General tab. It downloads the new setup, installs it over your copy and keeps your settings.
 
@@ -47,7 +48,12 @@ The full guide is **Cueless help.txt**, installed with Cueless and opened from t
 ## Requirements
 
 - Windows 10 or 11, 64-bit.
-- Corsair's audio driver for the EQ. It's installed with iCUE. iCUE itself doesn't need to run, and Cueless works best with iCUE closed and not starting with Windows.
+- Corsair's audio driver for the EQ. It's installed with iCUE.
+- **iCUE must not be running.** iCUE and Cueless both try to control the headset and get in each other's way. Before using Cueless:
+  1. Quit iCUE: in the notification area, open iCUE's menu and choose Quit.
+  2. Stop iCUE starting with Windows: open Windows Settings, go to Apps, then Startup, and turn off **iCUE**.
+
+  Keep iCUE installed: Cueless needs its audio driver for the EQ, and iCUE is still how you update the headset's firmware. Quit Cueless before opening iCUE for that.
 - Everything else works without any Corsair software.
 
 ## Firmware
