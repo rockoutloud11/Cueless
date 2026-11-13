@@ -32,7 +32,7 @@ To remove Cueless, open Windows Settings, then Apps, then Installed apps, and un
   You can turn each one on or off. You can also switch to the headset's own tones instead.
 - **EQ:** Corsair's five presets (Pure Direct, Bass Boost, Clear Chat, FPS Competition, Movie Theater) plus up to five custom presets. Pressing the volume wheel switches presets.
 - **Sidetone:** hear your own voice, with a level control.
-- **Headset volume and mic level.**
+- **Headset volume, mic level and mic boost** (the same boost as iCUE's), plus a **Test mic** button that records a few seconds and plays them back in the headset.
 - **Battery and charging status**, low battery warnings, and the auto sleep setting.
 - **Lights:**
   - solid color, color cycle, breathing, or off
@@ -48,12 +48,12 @@ The full guide is **Cueless help.txt**, installed with Cueless and opened from t
 ## Requirements
 
 - Windows 10 or 11, 64-bit.
-- Corsair's audio driver for the EQ. It's installed with iCUE.
+- Corsair's audio driver for the EQ and mic boost. It's installed with iCUE.
 - **iCUE must not be running.** iCUE and Cueless both try to control the headset and get in each other's way. Before using Cueless:
   1. Quit iCUE: in the notification area, open iCUE's menu and choose Quit.
   2. Stop iCUE starting with Windows: open Windows Settings, go to Apps, then Startup, and turn off **iCUE**.
 
-  Keep iCUE installed: Cueless needs its audio driver for the EQ, and iCUE is still how you update the headset's firmware. Quit Cueless before opening iCUE for that.
+  Keep iCUE installed: Cueless needs its audio driver for the EQ and mic boost, and iCUE is still how you update the headset's firmware. Quit Cueless before opening iCUE for that.
 - Everything else works without any Corsair software.
 
 ## Firmware
