@@ -6,12 +6,12 @@ Cueless is not made by, affiliated with, or endorsed by Corsair. Corsair, iCUE a
 
 ## Download
 
-1. Make sure iCUE isn't running and doesn't start with Windows (see Requirements below).
-2. Go to the **Releases** page of this repository and open the newest release.
-3. Download **Cueless-Setup** (the .exe file).
-4. Run it. Windows SmartScreen may warn about a new app. If it does, choose **More info**, then **Run anyway**.
-5. Setup shows one window. Choose the install folder and options, then press **Install**. Nothing is installed before that, and no administrator rights are needed.
-6. To open Cueless later, press the Windows key and type **Cueless**.
+1. Go to the **Releases** page of this repository and open the newest release.
+2. Download **Cueless-Setup** (the .exe file).
+3. Run it. Windows SmartScreen may warn about a new app. If it does, choose **More info**, then **Run anyway**.
+4. Setup shows one window. Choose the install folder and options, then press **Install**. Nothing is installed before that, and no administrator rights are needed for Cueless itself.
+   Setup also checks iCUE. If it's missing or out of date, a check box (on by default) downloads it from Corsair and installs or updates it after Cueless. Windows asks for permission for that part.
+5. To open Cueless later, press the Windows key and type **Cueless**.
 
 To update, use **Check for updates** on Cueless's General tab. It downloads the new setup, installs it over your copy and keeps your settings.
 
